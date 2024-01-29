@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdarg.h>
 
+int is_digit(char);
+
 /**
  * get_precision - calculates precision for printing
  * @format: formatted string in which to print the arguments
